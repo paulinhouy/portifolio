@@ -1,5 +1,5 @@
 body{
-padding: 0%;
+
 box-sizing: border-box;
 margin: 0%;
 }
@@ -52,3 +52,38 @@ header{
     padding-left: 10px;
     text-decoration: none;
 }
+main{
+    background-image: url(imagens/pexels-photo-3047470.jpeg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    color: aliceblue;
+   
+  
+}
+#skills{
+
+
+    display: flex;
+ justify-content: center;
+;}
+#linguagens{
+    padding: 40px;
+
+}
+#lista1{
+    border-radius: 10% 0% 0% 10%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    
+}
+#lista2{
+    border-radius: 0% 10% 10% 0%;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+   
+
+  
