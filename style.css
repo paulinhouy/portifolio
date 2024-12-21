@@ -24,6 +24,9 @@ header{
 }
 #name{
     font-size: 50px;
+  position: relative;
+  left: 1rem;
+  bottom: 2rem;
 }
 #profissao{
     font-size: 40px;
@@ -53,6 +56,19 @@ header{
 #menu{
     padding-left: 10px;
     text-decoration: none;
+    color: white;
+}
+.apresentacao{
+    text-align: center;
+    position: relative;
+    right: 4rem;
+   
+    
+}
+#minhaimagem{
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
 }
 main{
     background-image: url(imagens/fundo-abstrato-preto-escuro-com-lascas-de-madeira_24972-208.avif);
@@ -136,4 +152,13 @@ main{
     text-align: center;
     text-decoration: none;
     color: antiquewhite;
+}
+.contatos{
+    text-align: center;
+    border: 2px solid white;
+    width: 25rem;
+}
+
+#linkrede{
+    text-align: center;
 }
