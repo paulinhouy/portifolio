@@ -133,8 +133,13 @@ main{
 }
 .projetos{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+   align-items: end;
     padding-bottom: 30px;
+}
+#projeto1{
+   display: block;
+   justify-content:center ;
 }
 .esquadramento1{
     border-radius: 5% 5% 5% 5%;
@@ -142,6 +147,7 @@ main{
     padding-right: 80px;
     padding-left: 80px;
     padding-bottom: 20px;
+    width: 300px;
 }
 .descricao {
     text-align: center;
