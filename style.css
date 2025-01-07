@@ -175,6 +175,7 @@ main{
     font-size:50px ;
     font-family: sans-serif;
     text-decoration:NONE;
+    color: antiquewhite;
 
 }
 #projetos{
@@ -232,6 +233,10 @@ padding-bottom: 3rem;
 #contatar{
     display: flex;
     justify-content: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    padding-bottom: 2rem;
+    color: antiquewhite;
 }
 .meuFormulario{
    display: block;
@@ -265,6 +270,7 @@ border-radius: 60% 60% 60% 60%;
 .ctt{
     display:flex ;
     justify-content: space-evenly;
+    padding-bottom: 2rem;
 }
 #gitimg,#linkedinimg,#instaimg{
     position: relative;
@@ -311,7 +317,6 @@ footer{
     background-color: rgb(144, 143, 143);
     margin-top: 0;
     margin-bottom: 0%;
-
     padding-bottom: 0;
 }
 #footer-final{
