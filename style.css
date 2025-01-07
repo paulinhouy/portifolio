@@ -1,10 +1,7 @@
 html{
     
         scroll-behavior: smooth;
-        background-color: gainsboro;
-        
-     
-      
+        margin-bottom: 0%;
 }
 body{
 box-sizing: border-box;
@@ -200,6 +197,8 @@ justify-content: space-between;
 width: 100vw;
 padding-left: 5rem;
 padding-right: 5rem;
+padding-top: 3rem;
+padding-bottom: 3rem;
 
 }
 .descricao {
@@ -283,18 +282,19 @@ border-radius: 60% 60% 60% 60%;
     padding: 5px;
 
 }
-footer{
-    background-color: gainsboro;
-    height: 1px;
-}
+
 #final{
-    background-color: gainsboro;
+
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     bottom: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
+
+    margin-bottom: 0%;
+
+    
 }
 #imgprojeto{
     width: 30rem;
@@ -306,4 +306,16 @@ footer{
     flex-wrap: wrap;
     max-width: 25rem;
     letter-spacing: 0.75;
+}
+footer{
+    background-color: rgb(144, 143, 143);
+    margin-top: 0;
+    margin-bottom: 0%;
+
+    padding-bottom: 0;
+}
+#footer-final{
+    border-top:1px solid black;
+    margin-left: 5rem;
+    margin-right: 5rem
 }
