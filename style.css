@@ -257,7 +257,7 @@ font-family: sans-serif
     
 }
 #imgprojeto{
-    width: 100%;
+    width:25em;
     height: 15rem;
     border-radius: 10px;
     aspect-ratio: 16/9;
@@ -279,10 +279,7 @@ footer{
  .col-xl-3{
      width: 30%;
  }
- #projetos{
-     
- 
- }
+
 
  #minhaimagem2{
         width: 15em;
@@ -301,7 +298,7 @@ footer{
  }
 }
 @media screen and (max-width:49.67em){
-    .col-sm-6{
-        width: 50%;
-    }
+   #imgprojeto{
+ 
+   }
 }
