@@ -1,11 +1,12 @@
 html{
-    
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
         scroll-behavior: smooth;
         margin-bottom: 0%;
 }
 body{
-box-sizing: border-box;
-margin: 0%;
+
 }
 header{
     background-image: url(imagens/fundo-abstrato-preto-escuro-com-lascas-de-madeira_24972-208.avif);
@@ -122,10 +123,31 @@ main{
     padding-top: 30px;
 }
 
+#hard{
+    margin: auto;
+display: flex;
+justify-content: center;
+font-size: 3rem;
+font-family: sans-serif
+
+;}
 #skills{
     display: flex;
- justify-content: center;
-;}
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+#enquadramento-skills{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+#imgskill{
+   width: 40px;
+   padding: 1rem;
+}
 #linguagens{
     padding: 40px;
     text-align: center;
@@ -323,4 +345,19 @@ footer{
     border-top:1px solid black;
     margin-left: 5rem;
     margin-right: 5rem
+}
+@media screen and (min-width:49.68em){
+    #skills{
+ 
+    }
+    #enquadramento-skills{
+      display: flex;
+      justify-content: space-evenly;
+        width: 60%;
+    
+    }
+    #imgskill{
+       width: 2em;
+       padding: 10px;
+    }
 }
