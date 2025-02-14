@@ -5,9 +5,6 @@ html{
         scroll-behavior: smooth;
         margin-bottom: 0%;
 }
-body{
-
-}
 header{
     background-image: url(imagens/fundo-abstrato-preto-escuro-com-lascas-de-madeira_24972-208.avif);
     background-repeat: repeat;
@@ -17,46 +14,40 @@ header{
 
 }
 .eu {
-    display:flex ;
-    flex-direction:row-reverse ;
-    justify-content: space-around;
-    align-items: center;
-    height: 500px;
+
     font-family: sans-serif;
 }
-#minhaimagem{
-    position: relative;
-    left: 20px;
+#engloba-eu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
-#descricao{
+#name2{
+    display: flex;
+    justify-content: center;
     color: white;
-    width: 15vw;
+    text-transform: uppercase;
 }
-#name{
-    font-size: 50px;
-  position: relative;
-  left: 1rem;
-  bottom: 2rem;
-  color: white;
+#profissao2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#profissao{
-    font-size: 40px;
-}
-#nameprofissao{
-    margin: 0%;
-    padding: 20px;
-    border-radius: 5% 5% 0% 0%;
-    border-top: 2px solid white;
-    color: white;
-    
- 
-}
-#nomeprofissao {
+#profissao2 {
+    font-size: 2rem;
+    padding:0 ;
     margin: 0%;
     border-radius: 5% 5% 5% 5%;
-    padding: 20px;
     border-bottom: 2px solid white;
+    border-top: 2px solid white;
     color: antiquewhite;
+}
+#nameprofissao2{
+    margin: auto;
 }
 #links{
     display: flex;
@@ -79,22 +70,38 @@ header{
     color: gainsboro;
     
 }
-.apresentacao{
-    text-align: center;
-    position: relative;
-    right: 4rem;
-   
+.apresentacao2{
+display: flex;
+justify-content: center;
+flex-direction: column;
     
 }
-#minhaimagem{
-    width: 15rem;
-    height: 15rem;
-    text-align: center;
+#dentro{
+    display: flex;
+    justify-content: center;
+}
+#minhaimagem2{
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    height: 10em;
+
     border-radius: 50% 50% 50% 50%;
 }
 .about-me{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 5rem;
+    flex-direction: column;
+}
+#cobrindo2{
+    width: 80vw;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
 }
 #me{
     display: flex;
@@ -102,15 +109,15 @@ header{
     font-family: sans-serif;
     font-size: 50px;
     color: antiquewhite;
+
 }
 #resume{
     display: flex;
-    justify-content: end;
-    width: 40vw;
-    padding-bottom: 5rem;
+    justify-content: center;
+    width: 80vw;
     font-family: sans-serif;
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
  
 
 }
@@ -208,107 +215,33 @@ font-family: sans-serif
    
     
 }
-#projeto1{
-position: relative;
-bottom: 2rem;
-}
-.esquadramento1{
-display: flex;
-flex-direction: row-reverse;
-justify-content: space-between;
-width: 100vw;
-padding-left: 5rem;
-padding-right: 5rem;
-padding-top: 2rem;
-padding-bottom: 2rem;
 
-}
-.descricao {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    
-}
-#projeto1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 15rem;
-}
-#nameprojeto1{
-    font-size: 40px;
-    text-align: center;
-    font-family: sans-serif;
-    letter-spacing: 1;
-}
-#linkprojeto1{
+#projetos{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    color: antiquewhite;
-
-    
-    
-}
-#contatar{
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
+    text-align: center;
+    flex-wrap: wrap;
     font-family: sans-serif;
-    padding-bottom: 2rem;
-    color: antiquewhite;
+    
 }
-.meuFormulario{
-   display: block;
-   justify-content:flex-end;
-   text-align: end;
-   font-size: 1rem;
+.esquadramento2{
+   padding: 2rem;
 }
-#emailform,#msgform {
-    padding-top: 1rem;
+#nameprojeto2{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#nomeinput,#email,#mensagem{
-    width: 16rem;
-    height: 2rem;
+.linkprojeto2{
+    text-decoration: none;
+   text-transform: uppercase;
+   margin: 2rem;
+   color: whitesmoke;
+}
 
-}
-#instaimg{
-    width: 2rem;
-    border-radius:20% ;
-}
-#linkedinimg{
-    width: 2rem;
-    border-radius:20% ;
-}
-#gitimg{
-width: 2rem;
-border-radius: 60% 60% 60% 60%;
-}
-#qrcode{
-    width: 10rem;
-}
-.ctt{
-    display:flex ;
-    justify-content: space-evenly;
-    padding-bottom: 2rem;
-}
-#gitimg,#linkedinimg,#instaimg{
-    position: relative;
-    left: 2rem;
-}
-#msgform{
-    position: relative;
-    right: 25px;
-}
-#btn{
-    position: relative;
-    left: 16rem;
-    top: 5px;
-    font-size: 15px;
-    padding: 5px;
 
-}
+
+
 
 #final{
 
@@ -324,16 +257,13 @@ border-radius: 60% 60% 60% 60%;
     
 }
 #imgprojeto{
-    width: 30rem;
+    width: 100%;
     height: 15rem;
     border-radius: 10px;
+    aspect-ratio: 16/9;
+    margin-bottom: 2rem;
 }
-#descricaoprojeto{
-    font-family: sans-serif;
-    flex-wrap: wrap;
-    max-width: 25rem;
-    letter-spacing: 0.75;
-}
+
 footer{
     background-color: rgb(144, 143, 143);
     margin-top: 0;
@@ -345,35 +275,33 @@ footer{
     margin-left: 5rem;
     margin-right: 5rem
 }
-@media screen and (min-width:49.68em){
-    #skills{
+@media (min-width:59em){
+ .col-xl-3{
+     width: 30%;
+ }
+ #projetos{
+     
  
-    }
-    #enquadramento-skills{
-      display: flex;
-    justify-content: center;
-    padding: 1em;
-        
-    
-    }
-    #imgskill{
-       width: 2em;
-       padding: 10px;
-    }
+ }
+
+ #minhaimagem2{
+        width: 15em;
+        height: 15em;
+ }
+ #nameprofissao2{
+        font-size: 7rem;
+ }
+ #name2{
+        font-size: 2.5rem;
+ }
+ #menu{
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+ }
 }
 @media screen and (max-width:49.67em){
-    #skills{
- 
-    }
-    #enquadramento-skills{
-      display: flex;
-      justify-content: center;
-      padding: 1em;
-        
-    
-    }
-    #imgskill{
-       width: 2em;
-       padding: 10px;
+    .col-sm-6{
+        width: 50%;
     }
 }
