@@ -23,7 +23,7 @@ header{
     align-items: center;
     flex-direction: row-reverse;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 #name2{
     display: flex;
@@ -123,13 +123,13 @@ flex-direction: column;
 
 }
 main{
-    background-image: url(imagens/fundo-abstrato-preto-escuro-com-lascas-de-madeira_24972-208.avif);
-    background-repeat: repeat;
-    background-position:  top left;
-    background-size: cover;
-   
+   margin: 0%;
+   padding: 0%;
     color: aliceblue;
-    padding-top: 30px;
+    background-image: url(imagens/fundo-abstrato-preto-escuro-com-lascas-de-madeira_24972-208.avif);
+    background-repeat: no-repeat;
+    background-position:  top ;
+    background-size: cover;
 }
 
 #hard{
@@ -147,11 +147,13 @@ color: antiquewhite;
     justify-content: center;
     padding: 0%;
     margin: 0%;
+  
 }
 #enquadramento-skills{
     display: flex;
   justify-content: center;
   padding: 1rem;
+  padding-bottom: 2em;
 }
 #imgskill{
    width: 40px;
@@ -207,6 +209,9 @@ color: antiquewhite;
     font-family: sans-serif;
     text-decoration:NONE;
     color: antiquewhite;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 1em;
 
 }
 #projetos{
