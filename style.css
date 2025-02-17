@@ -5,11 +5,14 @@ html{
         scroll-behavior: smooth;
         margin-bottom: 0%;
 }
-header{
+body{
     background-image: url(imagens/fundo-abstrato-preto-escuro-com-lascas-de-madeira_24972-208.avif);
-    background-repeat: repeat;
-    background-position:  top;
+    background-repeat: no-repeat;
+    background-position:  top ;
     background-size: cover;
+}
+header{
+
    
 
 }
@@ -126,10 +129,6 @@ main{
    margin: 0%;
    padding: 0%;
     color: aliceblue;
-    background-image: url(imagens/fundo-abstrato-preto-escuro-com-lascas-de-madeira_24972-208.avif);
-    background-repeat: no-repeat;
-    background-position:  top ;
-    background-size: cover;
 }
 
 #hard{
